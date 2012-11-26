@@ -368,6 +368,7 @@ launchUrl(url)
 	
 	encodedUrl := EncodeURL(url)
 	
+	run, %browserPath% %encodedUrl%
 	
 }
 
